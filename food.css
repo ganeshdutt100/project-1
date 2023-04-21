@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+    /* position: sticky;
+    
+    top: 0;
+    background: url("background.jpg") no-repeat; */
+}
+.header-main-background {
+  background: url("background.jpg") no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 130vh; 
+}
+.header-text {
+  background: url("background.jpg") no-repeat;
+  background-size: contain;
+  background-blend-mode: darken;
+  height: 150vh;
+  background-position: -px 0px;
+  /* background-position-x: center; */
+  /* background-attachment:scroll; */
+  padding-right: 20px;
+}
+.divmain {
+  position: sticky;
+  top: 0px;
+}
+
+.header-image img {
+  margin: 26px 735px;
+}
+
+.list-text {
+  font-family: "Crimson Pro", serif;
+}
+
+.list-text ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-text li {
+  list-style: none;
+}
+.list-text li a {
+  padding: 7px 19px;
+  color: white;
+  margin: 27px 18px;
+  text-decoration: none;
+  font-family: "Balsamiq Sans";
+}
+.icons-123 p {
+    margin: 5px 14px;
+    color: white;
+    position: absolute;
+    background: #ff3939;
+    border-radius: 10px;
+    padding: 1px 7px;
+}
+.sec-1-line-span {
+    margin: 127px 422px;
+}
+.sec-1-line-image-3 {
+    margin: -4px 37px;
+    width: 70px;
+}
+.sec-1-line-image-1 {
+    margin: -26px 29px;
+    width: 77px;
+}
+.sec-1-line-image-2 {
+    margin: 13px 37px;
+    width: 60px;
+    border-image-repeat: round;
+}
+.name-of-burger {
+    font-family: sans-serif;
+    margin: -382px 465px;
+    /* color: #d32222; */
+    font-size: 65px;
+    padding: 72px 0px;
+    line-height: 1;
+    padding-top: 158px;
+}
+
+
+.name-of-burger p {
+  color: #ff3939;
+  padding-left: 52px;
+  font-weight: 700;
+}
+.name-of-burger span {
+  color: gray;
+}
+.name-of-burger-2 {
+    color: white;
+    font: bolder;
+    font-size: 147px;
+    font-weight: 900;
+}
+
+.list-text li a:hover {
+  background-color: rgb(159, 153, 153);
+  border-radius: 10px;
+}
+
+
+.see-more-sec-1{
+    position: absolute;
+    color: white;
+    margin: 749px 661px;
+    font-size: 30px;
+    background: red;
+    padding: 17px 60px;
+    border-radius: 46px;
+}
+.see-more-sec-1:hover{
+    background: none;
+    border: 2px solid white;
+}
+.header-image-2 img {
+    margin: 134px 372px;
+    padding-left: 1px;
+}
+
+.main-box-1 {
+  margin: 1px;
+  display: flex;
+}
+.first-half img {
+    margin: 5px 60px;
+    width: 701px;
+    border-radius: 47px;
+    height: 869px;
+}
+.section-1 {
+  margin: 100px 1px;
+}
+
+.second-half {
+  margin: 1px;
+  display: flex;
+  flex-direction: column;
+  margin: 120px 37px;
+}
+
+.bg-text {
+    margin: -36px 2px;
+    padding: 108px 1px;
+    font-size: 77px;
+    font-weight: 900;
+    width: 82%;
+}
+
+
+.sm-text {
+    /* letter-spacing: 2px; */
+    margin: 0px 2px;
+    padding: -15px 1px;
+    line-height: 1.4;
+    font-size: 23px;
+    color: gray;
+}
+
+.light-text {
+  margin: 1px 2px;
+  padding: 35px 0px;
+  font-size: 21px;
+}
+
+  .btn1 {
+    margin: 1px 255px;
+    background: black;
+    color: white;
+    border-radius: 13px;
+    align-items: center;
+    font-size: 27px;
+    padding: 13px 17px;
+}
+/* section 2 */
+.section-2 {
+  margin: 2px;
+}
+.h1-special {
+  font-size: 56px;
+  margin: 9px 31px;
+}
+.new-town {
+  margin: 96px 97px;
+  color: white;
+  background: #ff3939;
+  font-size: 14px;
+  padding: 8px 26px;
+  border-radius: 19px;
+  cursor: pointer;
+  border: none;
+}
+.main-box-2 {
+  margin: 2px;
+  display: flex;
+}
+.first-half-2 img {
+  margin: -1px 60px;
+}
+
+.ham {
+  margin: 17px 93px;
+  font-size: 41px;
+  font-family: "Balsamiq Sans";
+}
+.list-grame {
+  display: flex;
+  margin: 21px 76px;
+}
+.list-grame li {
+  padding: 1px 35px;
+  list-style: none;
+  font-size: 20px;
+  color: #383535;
+}
+.pera {
+  margin: 9px 79px;
+  line-height: 34px;
+  font-size: 19px;
+}
+.dollar {
+  margin: 8px 28px;
+  font-size: 41px;
+  padding: 1px 57px;
+}
+.btn2 {
+  margin: 2px;
+}
+
+.flex-text {
+  display: flex;
+}
+/* second half secrtion */
+
+.second-half-2 {
+  margin: 96px 150px;
+  display: flex;
+}
+.image-1 {
+    /* background: whitesmoke; */
+  padding: 41px 40px;
+  /* margin: 0px 2px; */
+}
+
+.about-text {
+    margin: 19px -14px;
+    font-size: 24px;
+    font-family: "Balsamiq Sans";
+}
+
+.rupey {
+  color: white;
+  font-size: 25px;
+  background: #ff3939;
+  padding: 2px 17px;
+  border-radius: 18px;
+}
+
+.add-to {
+  margin: 1px 1px;
+  padding: 33px 2px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-to:hover {
+  color: red;
+  cursor: pointer;
+}
+/* section-3 */
+.sec3-margen {
+  margin: 0px 2px;
+  display: flex;
+}
+
+.section-3 {
+  background-color: #191a1d !important;
+  height: 150vh;
+}
+.main-sec3 {
+  display: flex;
+}
+.sec3-image img {
+  margin: 1px;
+  width: 637px;
+}
+.sec3-heading {
+  margin: 51px 18px;
+}
+.discount {
+    margin: 0px 2px;
+    color: white;
+    font-size: 20px;
+    background: red;
+    border-radius: 16px;
+    padding: 5px 6px;
+}
+
+
+.heading {
+    margin: 1px 2px;
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+.heading-sm {
+  margin: 1px;
+  color: white;
+  font-size: 23px;
+  font-family: "Balsamiq Sans";
+  margin-top: 40px;
+
+}
+.sec-3-margin{
+    margin-left: 79px;
+    padding-top: 39px;
+}
+
+
+.btn-sec3 {
+    margin: 28px 131px;
+    color: white;
+    background: none;
+    padding: 15px 20px;
+    border-radius: 31px;
+    font-size: 21px;
+    font-family: "Balsamiq Sans";
+    border: 2px solid white
+}
+.btn-sec3:hover {
+  background-color: red;
+  border: none;
+}
+
+/* section-4 */
+.sec4 {
+  margin: 96px 2px;
+}
+.sec4-hading {
+  margin: 6px 1px;
+  font-size: 56px;
+  padding: 39px 104px;
+  font-family: "Balsamiq Sans";
+}
+.sec4-all-image-section {
+  display: flex;
+  margin: 1px 2px;
+}
+.sec4-image img {
+  margin: 1px 0px;
+  width: 314px;
+}
+
+.sec4-bg {
+  margin: 1px 2px;
+  font-size: 26px;
+  padding: 16px 63px;
+  font-weight: bold;
+  font-family: "Balsamiq Sans";
+}
+.sec4-sm {
+  margin: 1px 2px;
+  line-height: 1.5;
+  color: #525050;
+  font-weight: bold;
+  padding: 0px 18px;
+}
+.btn-sec4 {
+  margin: 14px 26px;
+  padding: 6px 18px;
+  font-size: 18px;
+  border-radius: 15px;
+  color: white;
+  background: red;
+  border: none;
+}
+/* num */
+.num {
+  color: red;
+  /* color: red; */
+  font-size: 67px;
+}
+.name-of-client {
+  font-size: 30px;
+  font-family: fantasy;
+}
+.sec-5 {
+  display: flex;
+}
+.sec-5-image img {
+  width: 394px;
+}
+
+.section-6 {
+  margin: 124px 1px;
+}
+.sec-6-main {
+  margin: 1px 1px;
+  display: flex;
+  justify-content: space-around;
+}
+.sec-6-first {
+  margin: 1px 1px;
+}
+.sec-6-text {
+  margin: 1px 1px;
+  font-size: 19px;
+  color: #5c5858;
+  font-family: "Balsamiq Sans";
+  padding: 20px 1px;
+}
+.icons {
+  margin: 0px 10px;
+}
+
+.sec-6-second {
+  margin: 1px 1px;
+}
+.sec-6-contact {
+  margin: 2px 1px;
+  font-size: 30px;
+  font-family: "Balsamiq Sans";
+}
+.sec-6-city {
+  margin: 1px 1px;
+  padding: 5px 3px;
+  font-size: 18px;
+  color: #423f3f;
+  font-family: system-ui;
+}
+
+.sec-6-third {
+  margin: 1px 1px;
+}
+#input-sec6 {
+  margin: 1px 1px;
+  font-size: 16px;
+  padding: 15px 54px;
+  border-radius: 25px;
+  border: none;
+  background: #eae7e7;
+}
+.section-6-sub {
+  margin: 18px 0px;
+  background: red;
+  padding: 17px 103px;
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+  border-radius: 36px;
+}
+.section-6-sub:hover {
+  background-color: black;
+}
+.footer-image img {
+  width: 100%;
+}
+.map {
+  position: absolute;
+  border: 2px solid white;
+  margin: 43px 21px;
+  padding: 8px 33px;
+  font-family: "Balsamiq Sans";
+  font-size: 44px;
+  background: white;
+  border-radius: 10px;
+}
+
+.map:hover {
+  background-color: rgb(184, 177, 177);
+}
+.footer-image-2 {
+  position: absolute;
+}
+
+/* .footer-2{
+    background-color: #191a1d;
+    height: 30vh;
+} */
+.footer-owner {
+  background-color: #191a1d;
+  height: 81vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin: 95px 3px;
+  font-family: cursive;
+  color: white;
+}
+
+#icon-location{
+  position: absolute;
+  margin: 556px 770px;
+  font-size: 275px;
+}
